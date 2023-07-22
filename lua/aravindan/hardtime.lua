@@ -4,4 +4,4 @@ if not status_ok then
 	return
 end
 
-hardtime.setup()
+hardtime.setup({ disabled_filetypes = { "qf", "netrw", "NvimTree", "lazy", "mason", "help" } })

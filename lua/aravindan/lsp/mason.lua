@@ -5,7 +5,8 @@ local servers = {
   "lua_ls",
   "rust_analyzer",
   "tsserver",
-  "yamlls"
+  "yamlls",
+  "taplo"
 }
 
 local settings = {
