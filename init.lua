@@ -1,10 +1,10 @@
 vim.loader.enable()
-require "aravindan.options"
-require "aravindan.keymaps"
-require "aravindan.plugins"
-require "aravindan.colorscheme"
-require "aravindan.cmp"
-require "aravindan.lsp"
+require("aravindan.options")
+require("aravindan.keymaps")
+require("aravindan.plugins")
+require("aravindan.colorscheme")
+require("aravindan.cmp")
+require("aravindan.lsp")
 require("aravindan.telescope")
 require("aravindan.treesitter")
 require("aravindan.autopairs")
@@ -18,3 +18,4 @@ require("aravindan.alpha")
 require("aravindan.whichkey")
 require("aravindan.obsidian")
 require("aravindan.hardtime")
+require("aravindan.lualine")
