@@ -94,20 +94,21 @@ return packer.startup(function(use)
 	-- toggleterm
 	use("akinsho/toggleterm.nvim")
 
-  -- indentline
-  use("lukas-reineke/indent-blankline.nvim")
+	-- indentline
+	use("lukas-reineke/indent-blankline.nvim")
 
-  -- alpha
-  use "goolord/alpha-nvim"
+	-- alpha
+	use("goolord/alpha-nvim")
 
-  -- which-key
-  use "folke/which-key.nvim"
+	-- which-key
+	use("folke/which-key.nvim")
 
-  -- obsidian
-  use "epwalsh/obsidian.nvim"
+	-- obsidian
+	use("epwalsh/obsidian.nvim")
 
-  -- hardtime nvim
-  use "m4xshen/hardtime.nvim"
+	-- hardtime nvim
+	use("m4xshen/hardtime.nvim")
+
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
 	if PACKER_BOOTSTRAP then
